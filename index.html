@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+
+    <title>Lab 3 </title>
+
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h2>Population in European Countries</h2>
+      <div class="city-count"></div>
+      <div class="population-plot"></div>
+    </div>
+
+    <div id="tooltip" class="hidden">
+      <p><strong>Country , Population</strong></p>
+      <p><span id="value">0</span></p>
+    </div>
+
+
+    <div class="row">
+        <div class="column column">
+          <img class="image"/>
+          <div class="container">
+            <h3>World's Tallest Buildings</h3>
+            <div class="building-graph"></div>
+
+          </div>
+        </div>
+        <div class="column column-20">
+          <h3></h3>
+              <img class="image" id="building_image" src ='' height="350"/>
+        </div>
+        <div class="column ">
+
+          <h4 class="building-name"> </h4>
+          <table>
+            <tbody>
+              <tr>
+                <td>Height</td>
+                <td><span class="height"></span> </td>
+              </tr>
+              <tr>
+                <td>City</td>
+                <td><span class="city"></span></td>
+              </tr>
+              <tr>
+                <td>Country</td>
+                <td><span class="country"></span> </td>
+              </tr>
+              <tr>
+                <td>Floors</td>
+                <td><span class="floors"></span> </td>
+              </tr>
+              <tr>
+                <td>Completed</td>
+                <td><span class="completed"></span> </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+<script src="script.js"></script>
+  </body>
+</html>
